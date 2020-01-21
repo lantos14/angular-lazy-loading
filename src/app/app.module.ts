@@ -4,13 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
-import { IntersectionDirectiveDirective } from './directives/intersection-directive.directive';
+import { IntersectionDirective } from './directives/intersection.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
-    IntersectionDirectiveDirective
+    IntersectionDirective
   ],
   imports: [
     BrowserModule,
