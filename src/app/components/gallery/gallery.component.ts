@@ -9,8 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class GalleryComponent implements OnInit {
   images: string[] = [];
-  imageStates: boolean[] = [];
-  placeholder: string = "https://bit.ly/3avE1uf";
+  imageStates: boolean[] = []
 
   constructor(
     public imageService: FetchImageService,
