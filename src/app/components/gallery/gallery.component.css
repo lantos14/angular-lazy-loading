@@ -1,0 +1,12 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 800px;
+  max-height: 800px;
+  margin: 50px;
+}
