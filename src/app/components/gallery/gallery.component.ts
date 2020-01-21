@@ -8,7 +8,9 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
-  images = [];
+  images: string[] = [];
+  imageStates: boolean[] = []
+
   constructor(
     public imageService: FetchImageService,
   ) { }

@@ -1,6 +1,5 @@
 <div class="gallery">
-  <div *ngFor="let image of images">
-    <img src="{{image}}" alt="image">
-
+  <div *ngFor="let image of images; let i = index" appIntersectionDirective (imageInScope)="imageStates[i] = $event">
+    <img [attr.src] = "imageStates[i] ? image : ''" alt="image">
   </div>
 </div>
