@@ -3,6 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 300px;
+}
+
+.image-container {
+  min-width: 800px;
+  min-height: 800px;
 }
 
 img {

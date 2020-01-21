@@ -15,3 +15,8 @@ There are 3 types of Directives:
     - examples:
       - `[ngClass]`
 
+
+## Useful links
+
+ - https://www.sitepoint.com/practical-guide-angular-directives/
+ - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
